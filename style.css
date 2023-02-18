@@ -1,0 +1,197 @@
+*{
+  margin-left: 0;
+  margin-right: 0;
+  
+  
+}
+
+body{
+  background-color:darkgray;
+  font-family:'Times New Roman', Times, serif ;
+}
+.menus{
+  border: 1px solid black;
+}
+.navbar{
+  position: sticky;
+  top:0;
+}
+
+
+.navigation{
+ 
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  background-color: black;
+}
+
+.searchbar{
+  border-radius: 20px;
+  padding-left: 20px;
+  border: none;
+  margin: 20px;
+  width: 600px;
+}
+
+.links{
+  text-decoration: none;
+  color: red;
+
+}
+
+.btn{
+  color:red;
+  background-color: white;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.icons{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color:red;
+}
+
+.card{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+.card1{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+.descflex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+    
+}
+
+p{
+  margin-top: 0;
+}
+
+.menu{
+    width: 300px;
+    padding: 5px;
+    /* margin: 5px; */
+    border: 1px solid lightgray;
+    border-radius: 15px;
+
+}
+.menu-img1{
+    width: 100%;
+    border-radius: 20px;
+    
+    
+    
+}
+
+.menu-img2{
+  width: 100%;
+  border-radius: 20px;
+}
+
+.menu-img3{
+  width: 100%;
+  border-radius: 20px;
+}
+
+.menu-img4{
+  width: 100%;
+  border-radius: 20px;
+}
+
+.menu-img5{
+  width: 100%;
+  border-radius: 20px;
+}
+
+.menu-img6{
+  width: 100%;
+  border-radius: 20px;
+}
+
+
+
+/* drinks */
+
+.drink-heading{
+  
+  padding-left: 20px;
+  border: 1px solid black;
+  color: red;
+  background-color: black;
+  
+}
+
+.drink-items{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.drinks
+{
+  width: 300px;
+  padding: 5px;
+  margin: 5px;
+  margin-top: 10px;
+  border: 1px solid lightgray;
+  border-radius: 15px;
+
+}
+
+.drink-img1{
+  width: 100%;
+  border-radius: 20px;
+}
+.drink-img2{
+  width: 100%;
+  border-radius: 20px;
+}
+.drink-img3{
+  width: 100%;
+  border-radius: 20px;
+}
+
+.cart-img{
+  position: fixed;
+  bottom: 0;
+  right: 5px;
+  color: white;
+  margin: 10px;
+  border: 1px solid black;
+  padding: 10px;
+  background-color:black;
+  border: none;
+  border-radius: 30px;
+}
+
+/* end part */
+.end-card{
+  margin: 20px;
+
+}
+
+.end{
+  margin-top: 20px;
+  background-color: whitesmoke;
+  border: 1px solid black;
+  border: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: first baseline;
+}
+
+.logos{
+  display: flex;
+  justify-content: space-between;
+}
